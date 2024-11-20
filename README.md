@@ -1,11 +1,11 @@
 <h1 align="center">Hi 👋, I'm Nima Mohammadi</h1>
-<h3 align="center">Web Developer</h3>
+<h3 align="center">Web Developer and Electronics Engineering</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=nimaobr&label=Profile%20views&color=0e75b6&style=flat" alt="nimaobr" /> </p>
 
-- 🌱 I’m currently learning **TypeScript - arduino**
+- 🌱 I’m currently learning , Working , Ubdating : **React-19 - NextJS-15 - Testing - electronics engineering**
 
-- 💬 Ask me about **react - nextjs - tailwind - redux**
+- 💬 Ask me about **react - nextjs - tailwind - redux - electronics - typeScript - JS ... **
 
 - 📫 How to reach me **nimaobr@gmail.com**
 
