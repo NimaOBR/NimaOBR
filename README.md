@@ -1,5 +1,5 @@
 <style>
-     .container {
+    .container {
       display: flex;
       justify-content: space-between; /* فاصله برابر بین تصاویر */
       align-items: center; /* تراز عمودی تصاویر */
@@ -12,7 +12,7 @@
       height: 200px; /* ارتفاع هر تصویر */
       object-fit: cover; /* تنظیم کردن تصاویر به اندازه مربع */
     }
-</style>
+  </style>
 
 
 <h1 align="center">Hi 👋, I'm Nima Mohammadi</h1>
