@@ -1,7 +1,7 @@
 <style>
   .container {
   display: flex;
-}
+},
   .image{
   height: 100px;
   width: 500px;
