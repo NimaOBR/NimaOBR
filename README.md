@@ -2,6 +2,10 @@
   .container {
   display: flex;
 }
+  .image{
+  height: 100px;
+  width: 500px;
+  }
 </style>
 
 
@@ -29,6 +33,6 @@
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=nimaobr&show_icons=true&locale=en" alt="nimaobr" /></p>
 <div class="container">
-<img align="center" width="500" height="400" src="https://upload.wikimedia.org/wikipedia/commons/3/35/Flag_of_Kurdistan.svg" alt="nimaobr" />
-<img align="center" width="500" height="600"  src="https://upload.wikimedia.org/wikipedia/commons/9/96/Flag_of_the_United_States_%28DDD-F-416E_specifications%29.svg" alt="nimaobr" />
+<img class="image" align="center"  src="https://upload.wikimedia.org/wikipedia/commons/3/35/Flag_of_Kurdistan.svg" alt="nimaobr" />
+<img calss="image" align="center"  src="https://upload.wikimedia.org/wikipedia/commons/9/96/Flag_of_the_United_States_%28DDD-F-416E_specifications%29.svg" alt="nimaobr" />
 </div>
