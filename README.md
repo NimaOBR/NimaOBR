@@ -1,18 +1,3 @@
-<style>
-    .container {
-      display: flex;
-      justify-content: space-between; /* فاصله برابر بین تصاویر */
-      align-items: center; /* تراز عمودی تصاویر */
-      width: 80%; /* عرض کانتینر */
-      margin: 0 auto; /* وسط چین کردن کانتینر */
-    }
-
-    .image {
-      width: 45%; /* عرض هر تصویر */
-      height: 200px; /* ارتفاع هر تصویر */
-      object-fit: cover; /* تنظیم کردن تصاویر به اندازه مربع */
-    }
-  </style>
 
 
 <h1 align="center">Hi 👋, I'm Nima Mohammadi</h1>
@@ -38,7 +23,7 @@
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=nimaobr&show_icons=true&locale=en&layout=compact" alt="nimaobr" /></p>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=nimaobr&show_icons=true&locale=en" alt="nimaobr" /></p>
-<div class="container">
-<img class="image"  src="https://upload.wikimedia.org/wikipedia/commons/3/35/Flag_of_Kurdistan.svg" alt="nimaobr" />
-<img calss="image"  src="https://upload.wikimedia.org/wikipedia/commons/9/96/Flag_of_the_United_States_%28DDD-F-416E_specifications%29.svg" alt="nimaobr" />
+<div display="flex">
+<img  width="400px" height="200px" src="https://upload.wikimedia.org/wikipedia/commons/3/35/Flag_of_Kurdistan.svg" alt="nimaobr" />
+<img width="400px" height="200px"  src="https://upload.wikimedia.org/wikipedia/commons/9/96/Flag_of_the_United_States_%28DDD-F-416E_specifications%29.svg" alt="nimaobr" />
 </div>
