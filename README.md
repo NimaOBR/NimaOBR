@@ -22,7 +22,6 @@
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=nimaobr&show_icons=true&locale=en" alt="nimaobr" /></p>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=nimaobr&" alt="nimaobr" /></p>
-
+<p><img align="center" src="https://en.wikipedia.org/wiki/Flag_of_Kurdistan#/media/File:Flag_of_Kurdistan.svg" alt="nimaobr" /></p>
 
 <p><img align="center"  src="https://upload.wikimedia.org/wikipedia/commons/9/96/Flag_of_the_United_States_%28DDD-F-416E_specifications%29.svg" alt="nimaobr" /></p>
