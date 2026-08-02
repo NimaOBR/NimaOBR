@@ -23,11 +23,11 @@
 
 <!-- Red/Blue Glowing Card for Deep Electronics & Edge AI Expertise -->
 <div align="center">
-  <table width="100%" style="border-collapse: collapse;">
+  <table width="100%">
     <tr>
-      <td align="center" style="background: rgba(255, 255, 255, 0.03); border: 2px solid #ff3366; border-radius: 16px; padding: 20px; box-shadow: 0 0 15px rgba(255, 51, 102, 0.4);">
+      <td align="center" style="background: rgba(255, 255, 255, 0.03); border: 2px solid #ff3366; border-radius: 16px; padding: 20px;">
         <h3 align="center" style="color: #61DAFB; margin-top: 0;">⚡ Deep Electronics & AI Expertise</h3>
-        <table width="100%" border="0" style="border: none;">
+        <table width="100%">
           <tr>
             <td width="50%" valign="top">
               <b>🧠 Hardware & AI Architecture:</b>
@@ -93,46 +93,11 @@
 
 <br />
 
-<!-- High-End USA Flag with Smooth Animated Train Border -->
+<!-- USA Flag with Clean Frame & Animated Border Lines -->
 <div align="center">
-  <svg width="100%" height="280" viewBox="0 0 800 280" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <style>
-      .train-border {
-        stroke-dasharray: 40 120;
-        animation: moveTrain 4s linear infinite;
-      }
-      .train-border-reverse {
-        stroke-dasharray: 30 100;
-        animation: moveTrainRev 3s linear infinite;
-      }
-      @keyframes moveTrain {
-        0% { stroke-dashoffset: 0; }
-        100% { stroke-dashoffset: -640; }
-      }
-      @keyframes moveTrainRev {
-        0% { stroke-dashoffset: 0; }
-        100% { stroke-dashoffset: 520; }
-      }
-    </style>
-
-    <!-- Outer Glow & Base Frame -->
-    <rect x="10" y="10" width="780" height="260" rx="20" fill="#0d1117" stroke="#1f2937" stroke-width="4" />
-    
-    <!-- Outer Cyan Neon Train Border -->
-    <rect class="train-border" x="10" y="10" width="780" height="260" rx="20" fill="none" stroke="#00d2ff" stroke-width="5" stroke-linecap="round" />
-    
-    <!-- Inner Red/Pink Neon Train Border (Moving Reverse) -->
-    <rect class="train-border-reverse" x="14" y="14" width="772" height="252" rx="16" fill="none" stroke="#ff2a5f" stroke-width="3" stroke-linecap="round" />
-
-    <!-- US Flag HD Image Clip -->
-    <g clip-path="url(#clip-flag)">
-      <image href="https://images.unsplash.com/photo-1508433957232-3107f5fd5995?q=80&w=1200&auto=format&fit=crop" x="25" y="25" width="750" height="230" preserveAspectRatio="xMidYMid slice" />
-    </g>
-
-    <defs>
-      <clipPath id="clip-flag">
-        <rect x="25" y="25" width="750" height="230" rx="12" />
-      </clipPath>
-    </defs>
-  </svg>
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" height="6" />
+  <br /><br />
+  <img src="https://images.unsplash.com/photo-1508433957232-3107f5fd5995?q=80&w=1200&auto=format&fit=crop" alt="USA Flag HD" width="85%" style="border: 3px solid #0e75b6; border-radius: 12px;" />
+  <br /><br />
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" height="6" />
 </div>
