@@ -93,17 +93,46 @@
 
 <br />
 
-<!-- US FLAG WITH ANIMATED CIRCUIT / TRAIN NEON BORDER (EXACT MATCH TO DESIGN) -->
+<!-- High-End USA Flag with Smooth Animated Train Border -->
 <div align="center">
-  <div style="position: relative; width: 90%; max-width: 800px; padding: 12px; border-radius: 20px; background: linear-gradient(90deg, #ff2a5f, #00d2ff, #ff2a5f); background-size: 200% 200%;">
-    <!-- Top Animated Circuit Line -->
-    <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" height="6" style="border-radius: 10px;" />
+  <svg width="100%" height="280" viewBox="0 0 800 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <style>
+      .train-border {
+        stroke-dasharray: 40 120;
+        animation: moveTrain 4s linear infinite;
+      }
+      .train-border-reverse {
+        stroke-dasharray: 30 100;
+        animation: moveTrainRev 3s linear infinite;
+      }
+      @keyframes moveTrain {
+        0% { stroke-dashoffset: 0; }
+        100% { stroke-dashoffset: -640; }
+      }
+      @keyframes moveTrainRev {
+        0% { stroke-dashoffset: 0; }
+        100% { stroke-dashoffset: 520; }
+      }
+    </style>
+
+    <!-- Outer Glow & Base Frame -->
+    <rect x="10" y="10" width="780" height="260" rx="20" fill="#0d1117" stroke="#1f2937" stroke-width="4" />
     
-    <div style="background: #0d1117; padding: 8px; border-radius: 16px;">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg" alt="USA Flag" width="100%" style="border-radius: 12px; display: block;" />
-    </div>
+    <!-- Outer Cyan Neon Train Border -->
+    <rect class="train-border" x="10" y="10" width="780" height="260" rx="20" fill="none" stroke="#00d2ff" stroke-width="5" stroke-linecap="round" />
     
-    <!-- Bottom Animated Circuit Line -->
-    <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" height="6" style="border-radius: 10px;" />
-  </div>
+    <!-- Inner Red/Pink Neon Train Border (Moving Reverse) -->
+    <rect class="train-border-reverse" x="14" y="14" width="772" height="252" rx="16" fill="none" stroke="#ff2a5f" stroke-width="3" stroke-linecap="round" />
+
+    <!-- US Flag HD Image Clip -->
+    <g clip-path="url(#clip-flag)">
+      <image href="https://images.unsplash.com/photo-1508433957232-3107f5fd5995?q=80&w=1200&auto=format&fit=crop" x="25" y="25" width="750" height="230" preserveAspectRatio="xMidYMid slice" />
+    </g>
+
+    <defs>
+      <clipPath id="clip-flag">
+        <rect x="25" y="25" width="750" height="230" rx="12" />
+      </clipPath>
+    </defs>
+  </svg>
 </div>
