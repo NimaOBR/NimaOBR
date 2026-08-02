@@ -97,7 +97,7 @@
 <div align="center">
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" height="6" />
   <br /><br />
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1S7fbJRt3v7dmLpQ_esB2yRvNvCEu1cvINf0Zr7l1Fg&s=10" alt="USA Flag HD"height="20%" width="200px" style="border: 3px solid #0e75b6; border-radius: 12px;" />
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1S7fbJRt3v7dmLpQ_esB2yRvNvCEu1cvINf0Zr7l1Fg&s=10" alt="USA Flag HD"height="20%" width="800px" style="border: 3px solid #0e75b6; border-radius: 12px;" />
   <br /><br />
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" height="6" />
 </div>
